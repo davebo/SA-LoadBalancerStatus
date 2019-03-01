@@ -13,14 +13,19 @@ used or `OUT` if the load balancer should NOT use it.
 
 The endpoint does not need authentication.
 
+Macros are provided to manually change cluster member status
+
+Saved search monitors and updates member status
+
 **Install:**
 
 Install as usual in the Splunk web or copy into $SPLUNK_HOME/etc/apps
+Install or link to etc/shcluster/apps on SHC Deployer for distribution
 
 **Configure:**
 
 The TA provides a saved search to populate the lookup with the names of the SH's.
-This saved search is disabled by default.
+Saved searches are disabled by default.
 
 **Debug**
 
