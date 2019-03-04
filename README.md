@@ -28,7 +28,7 @@ The TA provides a saved search to populate the lookup with the names of the SH's
 Saved searches are disabled by default.
 
 The automated status update search requires configuration of a macro
-`lb_splunk_searchheads` defaults to "splunk_server=*splunksh*"
+\`lb_splunk_searchheads\` defaults to "splunk_server=\*splunksh\*"
 
 **Debug**
 
