@@ -27,6 +27,9 @@ Install or link to etc/shcluster/apps on SHC Deployer for distribution
 The TA provides a saved search to populate the lookup with the names of the SH's.
 Saved searches are disabled by default.
 
+The automated status update search requires configuration of a macro
+`lb_splunk_searchheads` defaults to "splunk_server=*splunksh*"
+
 **Debug**
 
 Debug option can be enabled in the script handler `LoadBalancerStatus.py` by
